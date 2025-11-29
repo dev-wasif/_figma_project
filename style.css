@@ -1,0 +1,699 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+.cont{
+    background-color:black ;
+    color: aliceblue;
+    text-align: center;
+      height: 26px;
+      font-size: 15px;
+}
+
+
+.link{
+        color: aliceblue;
+
+  }
+    
+.link :visited{
+      background-color: antiquewhite;
+      color: white;
+}
+
+
+
+.nav{
+    display: flex;
+    gap: 23px;
+    
+}
+
+.name{
+    color: black;
+    padding: 3px;
+    font: weight 1000000px ;
+    font-size: 30px;
+    position: relative;
+    left: 30px;
+    font-weight: bold;
+
+
+
+
+}
+.anm{
+    position: relative;
+    left: 213px;
+    top: 4.6px;
+    padding: 3px;
+
+}
+
+
+.int{
+    position:relative;
+    left: 17rem;
+    top: 5px;
+    height: 32px;
+    width: 439px;
+    border-radius: 23px;
+    /* background-color: #F0F0F0; */
+    border: 2px solid black;
+
+}
+
+
+.head{
+   height: 500px;
+    
+}
+
+.head{
+  background-image: url(./Images/Rectangle\ 2.png);
+  background-color:#F2F0F1;
+  background-size: 70em;
+  background-position: 18rem;
+  background-repeat: no-repeat;
+  width: 1440;
+height: 663;
+opacity: 1;
+top: 134px;
+
+}
+
+
+.svg{
+    
+    position: absolute;
+    right: 9em;
+
+     
+
+
+}
+
+
+
+.fr{
+     font-size:2.5em;
+     width: 400px;
+     font-weight: 900em;
+     position: relative;
+     top: 6px;
+     left: 3.2em;
+    }  
+
+
+
+     .head_img{
+        position: absolute;
+        right:4em;
+        bottom: 34em;
+       
+
+     }
+
+     p{
+        width: 700px;
+        position: relative;
+        left: 8em;
+        top: 2.5em;
+     }
+
+button{
+    background-color: black;
+    width: 150px;
+    height: 44px;
+    border: 2px solid black;
+    color: white;
+    border-radius: 40px;
+    position: absolute;
+    left: 9.3em;
+    top: 27.8em;
+}
+
+.head_img1{
+    position: relative;
+    width: 23px;
+    left: 53em;
+}
+
+
+
+.name-brands{
+    display: flex;
+    gap: 77px;
+  background-color:black ;
+  height: 6em;
+  position: relative;
+  justify-content: center;
+
+}
+
+
+.im{
+
+    position: relative;
+    top: 25px;
+    
+}
+
+
+.gre{
+    display: flex;
+    justify-content: center;
+    position: relative;
+    top: 15px;
+}
+
+.top-section {
+    width: 100%;
+    max-width: 1200px;
+    margin: 0 auto;
+    text-align: center;
+    padding: 50px 0 20px;
+}
+
+.top-section h2 {
+    font-size: 26px;
+    font-weight: bold;
+    margin-bottom: 10px;
+}
+
+.top-section p {
+    font-size: 14px;
+    color: #666;
+    margin-bottom: 40px;
+}
+
+/* Cards container */
+.products-box {
+    width: 100%;
+    max-width: 1300px;
+    background: #fff;
+    border-radius: 18px;
+    padding: 30px 20px;
+    margin: 0 auto;
+    box-shadow: 0 10px 40px rgba(0,0,0,0.06);
+}
+
+.products {
+    display: flex;
+    gap: 25px;
+    justify-content: space-between;
+    flex-wrap: wrap;
+}
+
+/* Single card */
+.card {
+    width: 260px;
+    background: #ffffff;
+    border-radius: 18px;
+    padding: 20px;
+    text-align: left;
+}
+
+.card img {
+    width: 100%;
+    border-radius: 12px;
+    margin-bottom: 10px;
+}
+
+.card-title {
+    font-size: 15px;
+    font-weight: bold;
+    margin: 6px 0 4px;
+}
+
+.stars {
+    color: #ffae00;
+    font-size: 14px;
+    margin: 3px 0 8px;
+}
+
+/* Price styling */
+.price {
+    font-size: 22px;
+    font-weight: 700;
+    margin-top: 4px;
+}
+
+.old-price {
+    font-size: 15px;
+    color: #999;
+    text-decoration: line-through;
+    margin-left: 8px;
+}
+
+.discount {
+    background: #ff5e7e;
+    color: #fff;
+    padding: 2px 8px;
+    border-radius: 6px;
+    font-size: 12px;
+    margin-left: 8px;
+}
+
+/* View All Button */
+.view-all-container {
+    text-align: center;
+    margin-top: 25px;
+}
+
+.view-all {
+    padding: 12px 30px;
+    color: rgb(12, 9, 9);
+    background-color: #F2F0F1;
+    
+    border-radius: 50px;
+    font-size: 15px;
+    cursor: pointer;
+    transition: 0.2s;
+    top: 82em;
+    left: 45.2em;
+    text-transform: capitalize;
+    border: 1px solid #0000001A;
+    background-color: white;
+
+}
+
+.view-all-container2{
+     text-align: center;
+    margin-top: 25px;
+}
+
+.view-all2{
+      padding: 12px 30px;
+    color: rgb(12, 9, 9);
+    background-color: #F2F0F1;
+    border-radius: 50px;
+    font-size: 15px;
+    cursor: pointer;
+    transition: 0.2s;
+    top: 4px;
+    left: 4em;
+    text-transform: capitalize;
+    border: 1px solid #0000001A;
+    background-color: white;
+    position: relative;
+    left: 0.2rem;
+}
+
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Arial, sans-serif;
+}
+
+
+.container{
+    width: 90%;
+    max-width: 1100px;
+    margin: 30px auto;
+    padding: 25px;
+    background: white;
+    border-radius: 20px;
+}
+
+.title{
+    text-align: center;
+    font-size: 28px;
+    margin-bottom: 25px;
+    font-weight: 900;
+}
+
+.grid {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 20px;
+    padding: 20px;
+    background: #f3f3f3;  
+    width: 74em;
+    border-radius: 20px;
+}
+
+
+.box_2 img{
+    position: relative;
+    right: 265px;
+}
+
+.Extra_heading{
+    font-weight: bold;
+    font-size: 25px;
+    text-align: center;
+
+}
+
+
+
+
+
+/* Header Styling (Title + Arrows) */
+.section-header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 40px;
+}
+
+.section-header h2 {
+    font-size: 48px;
+    font-weight: 900; /* Extra Bold */
+    text-transform: uppercase;
+    margin: 0;
+    font-family: 'Arial Black', 'Helvetica Neue', sans-serif; /* Heavy font attempt */
+}
+
+.arrows {
+    display: flex;
+    gap: 15px;
+}
+
+.arrow-btn {
+    background: none;
+    border: none;
+    cursor: pointer;
+    padding: 5px;
+    transition: transform 0.2s;
+}
+
+.arrow-btn:hover {
+    transform: scale(1.1);
+}
+
+/* Cards Layout */
+.cards-container {
+    display: flex;
+    gap: 20px;
+    /* Agar screen choti ho to wrap ho jaye, ya scroll karein */
+    flex-wrap: wrap; 
+    justify-content: center;
+
+
+}
+
+/* General Reset */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'Helvetica Neue', Helvetica, Arial, sans-serif;
+}
+
+/* Footer Wrapper */
+.shop-footer {
+    background-color: #F0F0F0; /* Light gray background */
+    padding-top: 100px; /* Space for banner overlapping */
+    position: relative;
+}
+
+/* --- Newsletter Banner Section --- */
+.newsletter-banner {
+    background-color: #000; /* Black background */
+    border-radius: 30px;
+    padding: 40px 60px;
+    width: 90%;
+    max-width: 1200px;
+    margin: 0 auto; /* Center horizontally */
+    
+    /* Positioning to make it overlap */
+    position: absolute;
+    top: -80px; /* Moves half-way up outside the gray area */
+    left: 50%;
+    transform: translateX(-50%);
+}
+
+.newsletter-content {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    color: #fff;
+}
+
+.newsletter-content h2 {
+    font-size: 36px;
+    font-weight: 800;
+    max-width: 500px;
+    line-height: 1.1;
+}
+
+.newsletter-form {
+    display: flex;
+    gap: 15px;
+}
+
+.input-group {
+    position: relative;
+    width: 350px;
+}
+
+.email-icon {
+    position: absolute;
+    left: 15px;
+    top: 50%;
+    transform: translateY(-50%);
+    width: 20px;
+    height: 20px;
+    color: #999;
+}
+
+.input-group input {
+    width: 100%;
+    padding: 15px 15px 15px 45px; /* Left padding for icon */
+    border-radius: 50px;
+    border: none;
+    outline: none;
+    font-size: 14px;
+    color: #333;
+}
+
+.newsletter-form button {
+    padding: 15px 30px;
+    border-radius: 50px;
+    border: none;
+    background-color: #fff;
+    color: #000;
+    font-weight: 600;
+    cursor: pointer;
+    white-space: nowrap;
+    transition: background-color 0.3s;
+}
+
+.newsletter-form button:hover {
+    background-color: #e0e0e0;
+}
+
+
+/* --- Main Footer Content --- */
+.footer-content {
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 80px 20px 40px 20px; /* Padding top accounts for banner */
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+}
+
+.footer-brand {
+    max-width: 300px;
+    margin-bottom: 30px;
+}
+
+.footer-brand h3 {
+    font-size: 32px;
+    font-weight: 900;
+    margin-bottom: 20px;
+}
+
+.footer-brand p {
+    color: #666;
+    font-size: 14px;
+    line-height: 1.6;
+    margin-bottom: 25px;
+}
+
+.social-icons {
+    display: flex;
+    gap: 15px;
+}
+
+.social-icon {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 40px;
+    height: 40px;
+    background-color: #fff;
+    border: 1px solid #e0e0e0;
+    border-radius: 50%;
+    color: #333;
+    transition: all 0.3s;
+}
+
+.social-icon svg {
+    width: 20px;
+    height: 20px;
+}
+
+.social-icon:hover {
+    background-color: #000;
+    color: #fff;
+    border-color: #000;
+}
+/* Specific fix for facebook icon in image which is black */
+.social-icon.main-fb {
+    background-color: #000;
+    color: #fff;
+    border: none;
+}
+
+
+/* --- Footer Link Columns --- */
+.footer-links {
+    display: flex;
+    gap: 60px;
+    flex-wrap: wrap;
+}
+
+.link-column h4 {
+    font-size: 16px;
+    font-weight: 700;
+    margin-bottom: 25px;
+    letter-spacing: 1px;
+    color: #000;
+}
+
+.link-column ul {
+    list-style: none;
+}
+
+.link-column ul li {
+    margin-bottom: 15px;
+}
+
+.link-column ul li a {
+    text-decoration: none;
+    color: #666;
+    font-size: 15px;
+    transition: color 0.2s;
+}
+
+.link-column ul li a:hover {
+    color: #000;
+}
+
+/* --- Footer Bottom Section --- */
+.footer-bottom {
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 25px 20px;
+    border-top: 1px solid #e0e0e0;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    flex-wrap: wrap;
+    gap: 20px;
+}
+
+.footer-bottom p {
+    color: #666;
+    font-size: 14px;
+}
+
+.payment-icons {
+    display: flex;
+    gap: 10px;
+}
+
+.payment-icons img {
+    height: 30px;
+    background: #fff;
+    padding: 2px 5px;
+    border-radius: 5px;
+    border: 1px solid #eee;
+}
+
+/* --- Responsive Design (Mobile/Tablet) --- */
+@media (max-width: 992px) {
+    .newsletter-content {
+        flex-direction: column;
+        text-align: center;
+        gap: 30px;
+    }
+    .newsletter-banner {
+        padding: 30px;
+    }
+    .footer-links {
+        gap: 30px;
+    }
+}
+
+@media (max-width: 768px) {
+    .shop-footer {
+         /* Adjust overlap on mobile */
+        padding-top: 160px;
+    }
+    .newsletter-banner {
+        width: 95%;
+        top: -120px;
+    }
+    
+    .newsletter-form {
+        flex-direction: column;
+        width: 100%;
+    }
+    .input-group, .newsletter-form button {
+        width: 100%;
+    }
+    
+    .footer-content {
+        flex-direction: column;
+    }
+    
+    .footer-links {
+        flex-wrap: wrap;
+        justify-content: space-between;
+    }
+    .link-column {
+        /* On small screens, 2 columns per row */
+        flex: 1 1 40%; 
+        margin-bottom: 30px;
+    }
+
+    .footer-bottom {
+        flex-direction: column-reverse;
+        text-align: center;
+    }
+}
+
+@media (max-width: 480px) {
+    .link-column {
+        /* On very small screens, 1 column per row */
+        flex: 1 1 100%; 
+    }
+    .newsletter-content h2 {
+        font-size: 24px;
+    }
+}
+  
+
+.svg{
+    width: 30px;
+    height: 30px;
+    display: flex;
+    justify-content: center;
+    gap: 14px;
+    position: relative;
+    top: 4px;
+    left: 400px;
+}
